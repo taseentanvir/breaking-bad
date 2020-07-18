@@ -102,7 +102,7 @@ body {
 }
 
 .card-back {
-	background-color: #000;
+	background-color: #011e12;
 	color: white;
 	padding: 20px;
 	transform: rotateY(180deg);
@@ -186,10 +186,20 @@ footer {
 	.cards {
 		grid-template-columns: repeat(2, 1fr);
 	}
-}
+
+	
 
 @media (max-width: 500px) {
 	.cards {
 		grid-template-columns: 1fr;
 	}
+	input{
+		padding-right: 80px;
+
+	}
+
+	input:focus {
+		padding-right: 130px;
+	}
+}
 }
