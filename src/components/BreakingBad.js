@@ -25,9 +25,11 @@ const BreakingBad = () => {
         toast.error("Error while fetching the data");
       });
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3500);
+    // setTimeout(() => {
+    //   setIsLoading(false);
+    // }, 3500);
+
+    setIsLoading(false)
   }, [query]);
 
   const character = () => {
