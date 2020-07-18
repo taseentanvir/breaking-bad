@@ -173,3 +173,20 @@ footer {
     color: rgb(1, 22, 1);
   }
 }
+
+
+/* --------------------
+       Media Queries
+  -------------------- */
+
+  @media (max-width: 800px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
